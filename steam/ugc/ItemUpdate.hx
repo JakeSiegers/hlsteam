@@ -66,7 +66,7 @@ class ItemUpdate {
 	// -- native
 	
 	static function ugc_item_start_update( appId : Int, itemId : UID ) : UID { return null; }
-	static function ugc_item_submit_update( updId : UID, notes : hl.Bytes, cb : Callback<Bool> ) : AsyncCall { return null; }
+	static function ugc_item_submit_update( updId : UID, notes : hl.Bytes, cb : Callback<Dynamic> ) : AsyncCall { return null; }
 	static function ugc_item_set_update_language( updId : UID, lang : hl.Bytes ) : Bool { return false; }
 	static function ugc_item_set_title( updId : UID, title : hl.Bytes ) : Bool { return false; }
 	static function ugc_item_set_description( updId : UID, desc : hl.Bytes ) : Bool { return false; }

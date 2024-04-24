@@ -503,7 +503,7 @@ HL_PRIM bool HL_NAME(ugc_item_set_preview_image)(vuid updateHandle, vbyte *path)
 
 DEFINE_PRIM(_CRESULT, ugc_item_create, _I32 _CALLB(_DYN));
 DEFINE_PRIM(_UID, ugc_item_start_update, _I32 _UID);
-DEFINE_PRIM(_CRESULT, ugc_item_submit_update, _UID _BYTES _CALLB(_BOOL));
+DEFINE_PRIM(_CRESULT, ugc_item_submit_update, _UID _BYTES _CALLB(_DYN));
 DEFINE_PRIM(_BOOL, ugc_item_set_update_language, _UID _BYTES);
 DEFINE_PRIM(_BOOL, ugc_item_set_title, _UID _BYTES);
 DEFINE_PRIM(_BOOL, ugc_item_set_description, _UID _BYTES);
